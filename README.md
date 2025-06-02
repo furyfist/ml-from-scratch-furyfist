@@ -1,4 +1,4 @@
-# 🧠 ML From Scratch – furyfist :)
+#  ML From Scratch – furyfist :)
 
 This repository documents my journey in building core ML algorithms **from scratch** using NumPy, and applying them using libraries like `scikit-learn`. It’s structured for clarity, depth, and real-world understanding.
 
