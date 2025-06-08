@@ -8,9 +8,9 @@ This repository documents my journey in building core ML algorithms **from scrat
 
 | #  | Algorithm                                             | Theory | NumPy Impl | Sklearn | Project | Notes |
 |----|--------------------------------------------------------|--------|------------|---------|---------|-------|
-| 1  | Linear Regression                                      | ⬜️     | ⬜️         | ⬜️      | ⬜️      |       |
-| 2  | Gradient Descent                                       | ⬜️     | ⬜️         | N/A     | ⬜️      | Common optimizer |
-| 3  | Logistic Regression                                    | ⬜️     | ⬜️         | ⬜️      | ⬜️      | Next after linear |
+| 1  | Linear Regression                                      | ✅     | ✅         | ✅     | ⬜️      |       |
+| 2  | Gradient Descent                                       | ✅     | ✅         | N/A     | ⬜️      | Common optimizer |
+| 3  | Logistic Regression                                    | ✅     | ⬜️         | ✅     | ⬜️      | Next after linear |
 | 4  | Support Vector Machines (SVM)                          | ⬜️     | ⬜️         | ⬜️      | ⬜️      | Hinge loss, kernel trick |
 | 5  | Naive Bayes                                            | ⬜️     | ⬜️         | ⬜️      | ⬜️      | Probabilistic |
 | 6  | K-Nearest Neighbors (KNN)                              | ⬜️     | ⬜️         | ⬜️      | ⬜️      | Lazy learning |
@@ -37,6 +37,15 @@ For each algorithm:
 4. ✅ Test on small **projects** or datasets.
 5. ✅ Document learnings in Markdown.
 
+## Projects to Make : 
+Playlist link : https://www.youtube.com/playlist?list=PLfFghEzKVmjvuSA67LszN1dZ-Dd_pkus6
+
+Project 3: House Price Prediction (Linear Regression, Decision Trees, Random Forest, Gradient Boosting, XGBoost).
+Project 1: SONAR Rock vs Mine Prediction (Logistic Regression, KNN, Decision Trees, Random Forest, AdaBoost, Gradient Boosting, XGBoost, SVM).
+Project 4: Fake News Prediction (Naive Bayes, Logistic Regression, Decision Trees, Random Forest, XGBoost).
+Project 13: Customer Segmentation using K-Means Clustering (K-Means, Hierarchical Clustering, DBSCAN, PCA, T-SNE).
+Project 18: Movie Recommendation System (PCA, T-SNE, possibly clustering algorithms).
+
 ---
 
 ## 📌 Getting Started
@@ -45,6 +54,3 @@ Start with:
 ```bash
 cd 01_Linear_Regression
 python linear_numpy.py
-
-
-
